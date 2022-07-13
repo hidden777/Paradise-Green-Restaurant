@@ -6,22 +6,30 @@ export const Nav = styled.nav`
     background: transparent;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-weight: 700;    
+    margin-left: 10%;
 `;
 export const NavLink = styled(Link)`
     color: #fff;
     font-size: 2rem;
-    padding: 1%;
-    display: flex;
-    align-item: center;
     text-decoration: none;
     cursor: pointer;
-
+    
     @media screen and (max-width: 400px) {
         position: absolute;
         top: 10px;
         left: 25px;
+    }
+`;
+
+export const NavLogo = styled.img`
+    width: 100%;
+    height: 100%;
+    
+    @media screen and (max-width: 400px) {
+        width: 70%;
+        height: 70%;
     }
 `;
 

@@ -36,13 +36,15 @@ export const HeroItems = styled.div`
 
 export const HeroH1 = styled.h1`
     font-size: clamp(2.5rem, 10vw, 5rem);
+    font-family: 'Rubik Moonrocks', 'Kanit', cursive;
     margin-bottom: 1rem;
-    box-shadow: 3px 5px #e9ba23;
+    box-shadow: 3px 7px #00B152;
     letter-spacing: 3px;
 `;
 
 export const HeroP = styled.p`
-    font-size: clamp(2rem, 2.5vw, 3rem);
+    font-size: clamp(2rem, 2.5vw, 2rem);
+    font-family: 'Rubik Moonrocks', 'Kanit', cursive;
     margin-bottom: 2rem;
 `;
 

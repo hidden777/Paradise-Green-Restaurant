@@ -4,7 +4,10 @@ export const ProductsContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background: #150f0f;
+  background-color: #012101;
+  background-image: linear-gradient(90deg, #012101 0%, #001a34 50%, #3a0000 100%);
+
+
   color: #fff;
 `;
 
@@ -25,7 +28,7 @@ export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  box-shadow: 8px 8px #fdc500;
+  box-shadow: 8px 8px #00B152;
 `;
 
 export const ProductsHeading = styled.h1`
@@ -49,7 +52,8 @@ export const ProductInfo = styled.div`
 `;
 
 export const ProductDesc = styled.p`
-  margin-bottom: 1rem;
+ margin-bottom: 1rem;
+ font-family: 'Quicksand', sans-serif;
 `;
 
 export const ProductPrice = styled.p`

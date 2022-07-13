@@ -7,7 +7,7 @@ const Starters = () => {
   return (
     <>
     <Layout/>
-    <Products heading='The Dessert you Deserve' data={productDataThree}/>
+    <Products heading='Snack it out!!' data={productDataThree}/>
     </>
   )
 }

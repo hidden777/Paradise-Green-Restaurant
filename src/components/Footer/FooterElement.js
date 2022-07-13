@@ -56,7 +56,7 @@ export const SocialIconLink = styled.a`
   font-size: 24px;
   svg{
     &:hover{
-      color: blue;
+      color: #00B152;
     }
   }
 `;

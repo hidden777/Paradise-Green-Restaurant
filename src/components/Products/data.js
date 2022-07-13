@@ -7,6 +7,15 @@ import sweet3 from '../../images/sweet-3.jpg';
 import dessert1 from '../../images/dessert1.jpg';
 import dessert2 from '../../images/dessert2.jpg';
 import dessert3 from '../../images/dessert3.jpg';
+import starter1 from '../../images/starter1.jpg';
+import starter2 from '../../images/starter2.jpg';
+import starter3 from '../../images/starter3.jpg';
+import fullcourse1 from '../../images/fullcourse1.jpg';
+import fullcourse2 from '../../images/fullcourse2.jpg';
+import fullcourse3 from '../../images/fullcourse3.jpg';
+import addOn1 from '../../images/addOn1.jpg';
+import addOn2 from '../../images/addOn2.jpg';
+import addOn3 from '../../images/addOn3.jpg';
 
 export const productData = [
   {
@@ -70,6 +79,36 @@ export const productDataTwo = [
 
 export const productDataThree = [
   {
+    img: starter1,
+    alt: 'Paneer Tikka',
+    name: 'Paneer Tikka',
+    desc:
+      '5 cubes of fried paneer with plenty og fried veggies.',
+    price: '₹ 149.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: starter2,
+    alt: 'French Fries',
+    name: 'French Fries',
+    desc:
+      'Potato fries and special mayonese dip',
+    price: '₹ 60.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: starter3,
+    alt: 'Cheese Corn Balls',
+    name: 'Cheesy Bomb',
+    desc:
+      '10 cheesy corn stuffed crunchy balls',
+    price: '₹ 200.00',
+    button: 'Add to Cart'
+  }
+];
+
+export const productDataFour = [
+  {
     img: dessert1,
     alt: 'Chocolate Pudding',
     name: 'Chocolings',
@@ -94,6 +133,66 @@ export const productDataThree = [
     desc:
       'Thick almond-hinted cherry pie with golden brown buttery flaky pie crust',
     price: '₹ 265.00',
+    button: 'Add to Cart'
+  }
+];
+
+export const productDataFive = [
+  {
+    img: fullcourse1,
+    alt: 'Fried rice + Veg Manchurian',
+    name: 'Veg Manchurian',
+    desc:
+      'Full meal course of fried rice and veg manchurian. Best seller of this restaurant',
+    price: '₹ 350.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: fullcourse2,
+    alt: 'Paneer Curry + rice',
+    name: 'Paneer Curry',
+    desc:
+      'Spicy Paneer Curry served with fresh Rice.',
+    price: '₹ 350.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: fullcourse3,
+    alt: 'Paneer Biryani',
+    name: 'Paneer Biryani',
+    desc:
+      'Paneer Biryani with loads of extra paneer serving.',
+    price: '₹ 390.00',
+    button: 'Add to Cart'
+  }
+];
+
+export const productDataSix = [
+  {
+    img: addOn1,
+    alt: 'A bowl of Rice',
+    name: 'A bowl of Rice',
+    desc:
+      '',
+    price: '₹ 60.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: addOn2,
+    alt: 'Naan',
+    name: '2 slices of Naan',
+    desc:
+      '',
+    price: '₹ 60.00',
+    button: 'Add to Cart'
+  },
+  {
+    img: addOn3,
+    alt: 'Noodeles',
+    name: 'A bowl of Noodles',
+    desc:
+      '',
+    price: '₹ 60.00',
     button: 'Add to Cart'
   }
 ];
