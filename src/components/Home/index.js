@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <>
         <Layout imgUrl={"/restaurant-app/src/images/restaurant-hero.jpg"}/>
-        <Products heading='Choose your favourite' data={productData}/>
+        <Products heading='Pick Pack and Leave!' data={productData}/>
         <Feature />
-        <Products heading='Sweet Treats for you!' data={productDataTwo}/>
+        <Products heading='Solo Sweet Treats!' data={productDataTwo}/>
         <Loader type='pacman' />
     </>
   )

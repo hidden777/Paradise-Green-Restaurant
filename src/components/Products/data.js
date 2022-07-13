@@ -24,25 +24,25 @@ export const productData = [
     name: 'Supreme Pizza',
     desc:
       'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$19.99',
+    price: '₹ 400.00',
     button: 'Add to Cart'
   },
   {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    alt: 'Hakka Noodles',
+    name: 'Hakka Noodles',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$16.99',
+      ' Long chewy spicy noodles with crunchy veggies that savour the noodles taste.',
+    price: '₹ 180.00',
     button: 'Add to Cart'
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
+    alt: 'Pasta',
+    name: 'White Sauce Pasta',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$14.99',
+      ' Creamy delicious and cheesy pasta thrown in white and bechamel sauce',
+    price: '₹ 250.00',
     button: 'Add to Cart'
   }
 ];
@@ -54,7 +54,7 @@ export const productDataTwo = [
     name: 'Doughlicious',
     desc:
       'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
+    price: '₹ 350.00',
     button: 'Add to Cart'
   },
   {
@@ -63,7 +63,7 @@ export const productDataTwo = [
     name: 'Caramel Wonder',
     desc:
       'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-    price: '$12.99',
+    price: '₹ 200.00',
     button: 'Add to Cart'
   },
   {
@@ -72,7 +72,7 @@ export const productDataTwo = [
     name: 'Brownie Bunch',
     desc:
       'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-    price: '$9.99',
+    price: '₹ 150.00',
     button: 'Add to Cart'
   }
 ];
